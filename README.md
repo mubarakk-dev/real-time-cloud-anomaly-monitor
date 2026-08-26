@@ -22,6 +22,18 @@ This project demonstrates an end-to-end ML systems workflow rather than only ser
 - Docker Compose deployment with isolated API, worker, Redis, PostgreSQL, dashboard, and Prometheus services.
 - Unit, integration, smoke, CI, and Locust load-test support.
 
+## Tech stack
+
+| Area | Technologies |
+|---|---|
+| Language and ML | Python 3.12, scikit-learn, pandas, NumPy, joblib |
+| API and streaming | FastAPI, Uvicorn, WebSockets, Redis Streams, Redis Pub/Sub |
+| Data and state | PostgreSQL, SQLAlchemy, asyncpg, Redis |
+| Dashboard and observability | Streamlit, Plotly, Prometheus, structured JSON logging |
+| Infrastructure | Docker, Docker Compose, Linux containers |
+| Quality and performance | pytest, pytest-asyncio, Ruff, Locust |
+| Delivery | Git, GitHub, GitHub Actions CI |
+
 ## Architecture
 
 ```mermaid
